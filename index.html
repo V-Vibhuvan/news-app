@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header class="navbar">
+        <div class="logo">NewsApp</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href='#'>World</a></li>
+                <li><a href='#'>Sports</a></li>
+                <li><a href='#'>Tech</a></li>
+                <li><a href='#'>Business</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search news...">
+            <button>Search</button>
+        </div>
+
+        <button id="darkModeToggle"><i class="fas fa-moon"></i></button>
+
+    </header>
+
+    <!-- News Section -->
+     <div class="spinner" id="spinner" style="display: none;" ></div>
+    <main class="news-container">
+        
+    </main>
+
+    <div class="load-more-container">
+        <button id="loadMoreButton">Load More</button>
+    </div>
+
+    <!-- Footer -->
+     <footer class="footer">
+        &copy; 2025 NewsApp | All right reserved
+     </footer>
+
+     <script src="app.js"></script>
+</body>
+</html>
